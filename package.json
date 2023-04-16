@@ -1,0 +1,45 @@
+{
+  "name": "@paperkotter/eslint-config-airbnb-ts-prettier",
+  "version": "0.0.1",
+  "description": "Airbnb's ESLint config with TypeScript and Prettier support",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .tsx,ts test/"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "airbnb",
+    "typescript",
+    "prettier"
+  ],
+  "author": "toshi-toma",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "prettier": "^1.18.2 || ^2.0.0",
+    "typescript": ">=3.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.26",
+    "eslint": "8.38.0",
+    "prettier": "2.8.7",
+    "react": "18.2.0",
+    "standard-version": "9.5.0",
+    "typescript": "5.0.4"
+  },
+  "packageManager": "yarn@3.3.0"
+}
